@@ -1,0 +1,19 @@
+{application, pipeflow,
+ [{description, "Pipeflow"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {pipeflow_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    crypto,
+    hackney,
+    egoc
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["Takuya Yoshimura"]},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
